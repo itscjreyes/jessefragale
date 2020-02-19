@@ -8,15 +8,20 @@ class VideoList extends Component {
       const vidTitle = vid.snippet.title;
       const embedUrl = `https://www.youtube.com/embed/${vidId}`;
       return (
-        <div className="video-wrapper">
-          <iframe key={i} src={embedUrl} title={vidTitle}></iframe>
+        <div className="video-wrapper" key={i}>
+          <iframe src={embedUrl} title={vidTitle}></iframe>
         </div>
       )
     })
 
     return (
-      <div className="video-group">
-        {allVids}
+      <div className="videos-container">
+        <div className="videos-group">
+          {allVids}
+        </div>
+        <div className="center-btn">
+          <a href="https://www.youtube.com/user/JesseFragale/videos" className="btn btn-hollow">View All</a>
+        </div>
       </div>
     )
   }

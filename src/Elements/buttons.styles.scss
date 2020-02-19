@@ -1,0 +1,16 @@
+.center-btn {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-align: center;
+  transition: all 0.2s ease;
+
+  &.btn-hollow {
+    border: 1px solid;
+    background: transparent;
+  }
+}

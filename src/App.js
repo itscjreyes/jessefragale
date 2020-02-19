@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import VideoList from './Components/YouTube/video-list.component';
+import './Elements/elements-list.component';
 import './App.css';
 const key = process.env.REACT_APP_GOOGLE_API_KEY;
 const channelID = 'UCNrawkC_bE67IG8SaJpQMgw';
@@ -12,6 +13,7 @@ class App extends Component {
       videos: []
     }
   }
+
   componentDidMount(){
     let url = new URL('https://www.googleapis.com/youtube/v3/search');
     url.search = new URLSearchParams({
@@ -26,9 +28,8 @@ class App extends Component {
       .then(data => data.json())
       .then(response => {
         this.setState({ videos: response.items })
-        console.log(this.state.videos)
       })
-      .catch(err => console.log(err));
+      .catch(err => console.error(err));
   }
 
   render() {
