@@ -20,7 +20,7 @@ class VideoList extends Component {
           {allVids}
         </div>
         <div className="center-btn">
-          <a href="https://www.youtube.com/user/JesseFragale/videos" className="btn btn-hollow">View All</a>
+          <a href="https://www.youtube.com/user/JesseFragale/videos" target="_blank" rel="noopener noreferrer" className="btn btn-hollow">View All</a>
         </div>
       </div>
     )
