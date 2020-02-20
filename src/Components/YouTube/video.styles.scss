@@ -1,0 +1,10 @@
+.video-wrapper {
+  width: calc(100% / 3 - 40px);
+  margin: 20px;
+
+  iframe {
+    width: 100%;
+    height: 200px;
+    border: 0;
+  }
+}
