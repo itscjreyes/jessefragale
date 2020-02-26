@@ -19,8 +19,6 @@ class ArticlesList extends Component {
   }
 
   render(){
-    console.log(this.state)
-
     return (
       <div className="articles-container">
         <div className="articles-group">
