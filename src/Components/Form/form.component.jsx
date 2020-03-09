@@ -1,80 +1,40 @@
 import React, { Component } from 'react';
+import Button from '@material-ui/core/Button';
+import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
+
+import './form.styles.scss';
 
 class Form extends Component {
   constructor(props) {
     super(props);
-    this.state = { 
-      name: '', 
-      email: '',
-      message: ''
-    };
-    this.handleNameChange = this.handleNameChange.bind(this);
-    this.handleEmailChange = this.handleEmailChange.bind(this);
-    this.handleMessageChange = this.handleMessageChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    this.state = {
+      formData: {
+        name: '',
+        email: '',
+        message: ''
+      },
+      submitted: false,
+    }
   }
 
-  render() {
-    return (
-      <form className="test-mailing">
-        <h3>Have a question? Send me a message!</h3>
-        <div className="form-content">
-          <input
-            type="text"
-            id="form-name"
-            name="form-name"
-            onChange={this.handleNameChange}
-            placeholder="Name"
-            required
-            value={this.state.name}
-          />
-          <input
-            type="email"
-            id="form-email"
-            name="form-email"
-            onChange={this.handleEmailChange}
-            placeholder="Email"
-            required
-            value={this.state.email}
-          />
-          <textarea
-            id="form-message"
-            name="form-message"
-            onChange={this.handleMessageChange}
-            placeholder="Message"
-            required
-            value={this.state.message}
-          />
-        </div>
-        <input type="button" value="Send Message" className="btn btn--submit" onClick={this.handleSubmit} />
-      </form>
-    )
+  handleChange = (event) => {
+    const { formData } = this.state;
+    formData[event.target.name] = event.target.value;
+    this.setState({ formData });
   }
 
-  handleNameChange(event) {
-    this.setState({ name: event.target.value })
-  }
+  handleSubmit = () => {
+    this.setState({ submitted: true }, () => {
+      setTimeout(() => this.setState({ submitted: false }), 5000);
+    });
 
-  handleEmailChange(event) {
-    this.setState({ email: event.target.value })
-  }
-
-  handleMessageChange(event) {
-    this.setState({ message: event.target.value })
-  }
-
-  handleSubmit(event) {
     const templateId = 'template_R6HHxYQp';
 
-    if (this.state.name && this.state.email && this.state.message !== '') {
-      this.sendFeedback(templateId, { 
-        message_html: this.state.message, 
-        from_name: this.state.name, 
-        from_email: this.state.email 
-      })
-    } else {
-      console.log('form incomplete')
-    }
+    this.sendFeedback(templateId, {
+      from_name: this.state.formData.name,
+      from_email: this.state.formData.email,
+      message_html: this.state.formData.message
+    })
   }
 
   sendFeedback(templateId, variables) {
@@ -88,6 +48,57 @@ class Form extends Component {
     })
       // Handle errors here however you like, or use a React error boundary
       .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+  }
+
+  render() {
+    const { formData, submitted } = this.state;
+    return (
+      <ValidatorForm
+        ref="form"
+        onSubmit={this.handleSubmit}
+      >
+        <h3>Have a question? Send me a message!</h3>
+        <div className="form-content">
+          <TextValidator
+            label="Name"
+            onChange={this.handleChange}
+            name="name"
+            value={formData.name}
+            validators={['required']}
+            errorMessages={['This field is required']}
+          />
+          <TextValidator
+            label="Email"
+            onChange={this.handleChange}
+            name="email"
+            value={formData.email}
+            validators={['required', 'isEmail']}
+            errorMessages={['This field is required', 'Email is not valid']}
+          />
+          <TextValidator
+            label="Message"
+            onChange={this.handleChange}
+            name="message"
+            multiline
+            value={formData.message}
+            validators={['required']}
+            errorMessages={['This field is required']}
+          />
+          <Button
+            className="custom-submit"
+            color="primary"
+            variant="contained"
+            type="submit"
+            disabled={submitted}
+          >
+            {
+              (submitted && 'Your form is submitted!')
+              || (!submitted && 'Submit')
+            }
+          </Button>
+        </div>
+      </ValidatorForm>
+    )
   }
 }
 
