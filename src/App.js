@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import butter from './butter-client';
-import VideoList from './Components/YouTube/video-list.component';
-import ArticlesList from  './Components/Articles/articles-list.component';
+import Header from './Components/Header/header.component';
+import Media from './Components/Media/media.component';
+import Form from './Components/Form/form.component';
 import './Elements/elements-list.component';
 import './App.css';
 
@@ -9,7 +10,8 @@ class App extends Component {
   state = {
     data: {
       fields: {
-        articles: []
+        articles: [],
+        featured: []
       }
     }
   }
@@ -21,14 +23,16 @@ class App extends Component {
   
   render() {
     const articles = this.state.data.fields.articles;
+    const featured = this.state.data.fields.featured;
     
     return (
       <div>
-        {/* <VideoList /> */}
-        <ArticlesList 
+        <Header />
+        <Media 
           articles={articles}
+          featured={featured}
         />
-        {/* <iframe title="The Working Capital Real Estate Podcast" src="//html5-player.libsyn.com/embed/destination/id/1789700/height/360/theme/legacy/thumbnail/yes/direction/backward/no-cache/true/" height="360" width="100%" scrolling="no"  allowFullScreen webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe> */}
+        <Form />
       </div>
     );
   }
