@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import butter from './butter-client';
 import Header from './Components/Header/header.component';
 import Media from './Components/Media/media.component';
-import Form from './Components/Form/form.component';
+import Contact from './Components/Contact/contact.component';
+import Footer from './Components/Footer/footer.component';
 import './Elements/elements-list.component';
 import './App.css';
 
@@ -32,7 +33,8 @@ class App extends Component {
           articles={articles}
           featured={featured}
         />
-        <Form />
+        <Contact />
+        <Footer />
       </div>
     );
   }
