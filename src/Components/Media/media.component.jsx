@@ -2,6 +2,7 @@ import React from 'react';
 import VideoList from '../YouTube/video-list.component';
 import Podcast from '../Podcast/podcast.component';
 import ArticlesList from  '../Articles/articles-list.component';
+import FeaturedList from '../Featured Work/featured-list.component';
 
 import './media.styles.scss';
 
@@ -35,7 +36,7 @@ function Media({articles, featured}){
   tabsMap();
 
   return (
-    <div className="media-wrapper">
+    <div className="media-wrapper" id="media">
       <div className="container">
         <ul className="media-tabs-group">
           <li><button className="active media-tab" data-tab="videos">Videos</button></li>
@@ -54,7 +55,11 @@ function Media({articles, featured}){
             articles={articles}
           />
         </div>
-        <div className="media-content" id="featured">Featured Work Content</div>
+        <div className="media-content" id="featured">
+          <FeaturedList
+            featured={featured}
+          />
+        </div>
       </div>
     </div>
   )
