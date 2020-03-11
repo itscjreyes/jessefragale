@@ -9,7 +9,10 @@ function About({image, content}) {
         <div className="img-wrapper">
           <img src={image} alt="Jesse Fragale"/>
         </div>
-        <div className="content-wrapper" dangerouslySetInnerHTML={{ __html: content }} />
+        <div className="content-wrapper">
+          <h2>About Me</h2>
+          <div dangerouslySetInnerHTML={{ __html: content }} />
+        </div>
       </div>
     </div>
   )

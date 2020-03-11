@@ -1,0 +1,19 @@
+.about {
+  position: relative;
+  z-index: 1;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 150px;
+  }
+
+  .content-wrapper {
+    width: 50%;
+  }
+
+  .img-wrapper {
+    width: 40%;
+  }
+}
