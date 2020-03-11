@@ -12,6 +12,7 @@ function About({image, content}) {
         <div className="content-wrapper">
           <h2>About Me</h2>
           <div dangerouslySetInnerHTML={{ __html: content }} />
+          <button href="#contact" className="scroll btn btn-cta">Let's Connect</button>
         </div>
       </div>
     </div>

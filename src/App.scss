@@ -3,8 +3,13 @@
 $font-title: 'Bebas Neue', cursive;
 $font-body: 'Lato', sans-serif;
 
+$grey: #3A3A3A;
+$black: #1F1F1F;
+
+
 body {
   font-family: $font-body;
+  color: $black;
 }
 
 h1,
@@ -35,6 +40,12 @@ img {
   padding: 80px 8%;
   max-width: 1400px;
   margin: auto;
+}
+
+#about,
+#media,
+#contact {
+  outline: 0;
 }
 
 header {
