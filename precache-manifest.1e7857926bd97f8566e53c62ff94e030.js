@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5a40216af905a1ff15621227e30779a",
+    "revision": "2410ae154e70167bff6d1bb8b9af273d",
     "url": "/jessefragale/index.html"
   },
   {
-    "revision": "52c0702532e137b38c1d",
-    "url": "/jessefragale/static/css/main.fb2e1690.chunk.css"
+    "revision": "42dbd9f6a523762fe182",
+    "url": "/jessefragale/static/css/main.67855cbc.chunk.css"
   },
   {
-    "revision": "8ce96246605d33bc8bf4",
-    "url": "/jessefragale/static/js/2.e84ff46a.chunk.js"
+    "revision": "0bca57ce498309422c00",
+    "url": "/jessefragale/static/js/2.b63120cb.chunk.js"
   },
   {
     "revision": "333d194533c647274c30c06414f74d88",
-    "url": "/jessefragale/static/js/2.e84ff46a.chunk.js.LICENSE.txt"
+    "url": "/jessefragale/static/js/2.b63120cb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "52c0702532e137b38c1d",
-    "url": "/jessefragale/static/js/main.fab9c713.chunk.js"
+    "revision": "42dbd9f6a523762fe182",
+    "url": "/jessefragale/static/js/main.280cb121.chunk.js"
   },
   {
     "revision": "451660d2f1845b5e0d51",
@@ -36,12 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jessefragale/static/media/instagram.529f10dc.svg"
   },
   {
-    "revision": "bb825e8edfb73770e305e2d0e24baa73",
-    "url": "/jessefragale/static/media/jesse-fragale.bb825e8e.png"
+    "revision": "e8018d1ffc448f68ffbe789af3227c67",
+    "url": "/jessefragale/static/media/jesse-fragale.e8018d1f.png"
   },
   {
     "revision": "dda71dd5e0b177856eb7dacd2a2f13ce",
     "url": "/jessefragale/static/media/linkedin.dda71dd5.svg"
+  },
+  {
+    "revision": "f79fe6ae99a50939f12f755851398cf9",
+    "url": "/jessefragale/static/media/play.f79fe6ae.svg"
   },
   {
     "revision": "6cb9c32dea6af58354e38657e35e0d2e",
