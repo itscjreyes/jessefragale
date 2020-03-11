@@ -36,8 +36,9 @@ function Media({articles, featured}){
   tabsMap();
 
   return (
-    <div className="media-wrapper" id="media">
+    <div className="media" id="media">
       <div className="container">
+        <h2>Watch, Listen, Read</h2>
         <ul className="media-tabs-group">
           <li><button className="active media-tab" data-tab="videos">Videos</button></li>
           <li><button className="media-tab" data-tab="podcast">Podcast</button></li>

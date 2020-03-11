@@ -43,6 +43,7 @@ class VideoList extends Component {
                 key={i}
                 vidId={vid.id.videoId}
                 vidTitle={vid.snippet.title}
+                vidImg={vid.snippet.thumbnails.high.url}
               />
             ))
           }
