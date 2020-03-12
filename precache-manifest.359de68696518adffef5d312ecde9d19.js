@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f3469f5028b3945057d1c5e15886021",
+    "revision": "e2520645517604bc19d1a03d303a5328",
     "url": "/jessefragale/index.html"
   },
   {
-    "revision": "a4c4486b692b15d63a4c",
-    "url": "/jessefragale/static/css/main.6e74ee8b.chunk.css"
+    "revision": "b2b33db72fb699ec0a04",
+    "url": "/jessefragale/static/css/main.62bb2d69.chunk.css"
   },
   {
     "revision": "9f0296836a4873aa14d2",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jessefragale/static/js/2.b80052fa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a4c4486b692b15d63a4c",
+    "revision": "b2b33db72fb699ec0a04",
     "url": "/jessefragale/static/js/main.f4b665a6.chunk.js"
   },
   {
