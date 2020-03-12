@@ -24,7 +24,7 @@ class Video extends Component {
     return (
       <div className="video-wrapper" key={this.props.key} style={wrapperStyles}>
         <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId={this.props.vidId} onClose={() => this.setState({isOpen: false})} />
-        <button className="open-video" onClick={this.openModal}>
+        <button className="open-video" onClick={this.openModal} title={this.props.vidTitle}>
           <div className="play">
             <Play />
           </div>

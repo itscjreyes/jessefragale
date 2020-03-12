@@ -6,7 +6,7 @@ const Article = ({ key, title, description, link }) => (
       <h3>{title}</h3>
       <p>{description}</p>
     </div>
-    <a href={link} className="btn btn-hollow">Read Article</a>
+    <a href={link} target="_blank" rel="noopener noreferrer" className="btn btn-hollow">Read Article</a>
   </div>
 )
 

@@ -4,8 +4,16 @@ import './instagram.styles.scss';
 
 function Instagram() {
   return (
-    <div>
-      <h3>[Instagram]</h3>
+    <div className="instagram-wrapper">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
   )
 }

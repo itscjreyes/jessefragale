@@ -1,0 +1,59 @@
+.social-group {
+  margin: 20px -8px;
+
+  a {
+    display: inline-block;
+    margin: 8px;
+    color: inherit;
+    transition: all 0.2s ease;
+
+    &:hover,
+    &:focus {
+      transform: translateY(-3px);
+    }
+
+    &.icon-instagram {
+      &:hover,
+      &:focus {
+        svg path {
+          fill:  #962fbf;
+        }
+      }
+    }
+
+    &.icon-linkedin {
+      &:hover,
+      &:focus {
+        svg path {
+          fill: #0072b1;
+        }
+      }
+    }
+
+    &.icon-twitter {
+      &:hover,
+      &:focus {
+        svg path {
+          fill: #00aced;
+        }
+      }
+    }
+
+    &.icon-youtube {
+      &:hover,
+      &:focus {
+        svg path {
+          fill: #ff0000;
+        }
+      }
+    }
+  }
+
+  svg {
+    height: 25px;
+
+    path {
+      transition: all 0.05s ease;
+    }
+  }
+}

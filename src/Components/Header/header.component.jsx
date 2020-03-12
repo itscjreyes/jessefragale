@@ -1,4 +1,5 @@
 import React from 'react';
+import { ReactComponent as Logo } from '../../Assets/icons/jessefragale.svg';
 
 import './header.styles.scss';
 
@@ -33,14 +34,28 @@ function scrollToTop() {
     behavior: 'smooth'
   });
 }
+
+function headerScroll() {
+  window.onscroll = function() {
+    const top = (window.pageYOffset || document.documentElement.scrollTop)  - (document.documentElement.clientTop || 0);
+    const header = document.querySelector('header');
+    
+    if (top === 0) {
+      header.classList.remove('sticky');
+    } else {
+      header.classList.add('sticky');
+    }
+  };
+}
   
 function Header(){
   scrollTo();
+  headerScroll();
 
   return (
     <header>
       <div className="container">
-        <button className="logo" onClick={scrollToTop}><span className="strong">Jesse</span> Fragale</button>
+        <button className="logo" onClick={scrollToTop}><Logo /></button>
         <nav>
           <ul>
             <li><button href="#about" className="scroll">About</button></li>
