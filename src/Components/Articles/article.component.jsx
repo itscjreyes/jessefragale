@@ -1,11 +1,13 @@
 import React from 'react';
 
 const Article = ({ key, title, description, link }) => (
-  <a href={link} key={key}>
-    <h3>{title}</h3>
-    <p>{description}</p>
-    <span>Read Article</span>
-  </a>
+  <div className="article" key={key}>
+    <div className="content-wrapper">
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </div>
+    <a href={link} className="btn btn-hollow">Read Article</a>
+  </div>
 )
 
 export default Article;

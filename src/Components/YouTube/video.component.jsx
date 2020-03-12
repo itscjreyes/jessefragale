@@ -34,10 +34,4 @@ class Video extends Component {
   }
 }
 
-// const Video = ({ key, vidId, vidTitle }) => (
-//   <div className="video-wrapper" key={key}>
-//     <iframe src={`https://www.youtube.com/embed/${vidId}`} title={vidTitle}></iframe>
-//   </div>
-// )
-
 export default Video;
