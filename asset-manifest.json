@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/jessefragale/static/css/main.67855cbc.chunk.css",
-    "main.js": "/jessefragale/static/js/main.280cb121.chunk.js",
-    "main.js.map": "/jessefragale/static/js/main.280cb121.chunk.js.map",
+    "main.css": "/jessefragale/static/css/main.6e74ee8b.chunk.css",
+    "main.js": "/jessefragale/static/js/main.f4b665a6.chunk.js",
+    "main.js.map": "/jessefragale/static/js/main.f4b665a6.chunk.js.map",
     "runtime-main.js": "/jessefragale/static/js/runtime-main.0b6cb369.js",
     "runtime-main.js.map": "/jessefragale/static/js/runtime-main.0b6cb369.js.map",
-    "static/js/2.b63120cb.chunk.js": "/jessefragale/static/js/2.b63120cb.chunk.js",
-    "static/js/2.b63120cb.chunk.js.map": "/jessefragale/static/js/2.b63120cb.chunk.js.map",
+    "static/js/2.b80052fa.chunk.js": "/jessefragale/static/js/2.b80052fa.chunk.js",
+    "static/js/2.b80052fa.chunk.js.map": "/jessefragale/static/js/2.b80052fa.chunk.js.map",
     "index.html": "/jessefragale/index.html",
-    "precache-manifest.1e7857926bd97f8566e53c62ff94e030.js": "/jessefragale/precache-manifest.1e7857926bd97f8566e53c62ff94e030.js",
+    "precache-manifest.12ffd7359b29b95c99514b7d66a49cc5.js": "/jessefragale/precache-manifest.12ffd7359b29b95c99514b7d66a49cc5.js",
     "service-worker.js": "/jessefragale/service-worker.js",
-    "static/css/main.67855cbc.chunk.css.map": "/jessefragale/static/css/main.67855cbc.chunk.css.map",
-    "static/js/2.b63120cb.chunk.js.LICENSE.txt": "/jessefragale/static/js/2.b63120cb.chunk.js.LICENSE.txt",
+    "static/css/main.6e74ee8b.chunk.css.map": "/jessefragale/static/css/main.6e74ee8b.chunk.css.map",
+    "static/js/2.b80052fa.chunk.js.LICENSE.txt": "/jessefragale/static/js/2.b80052fa.chunk.js.LICENSE.txt",
     "static/media/buttercms-logo.png": "/jessefragale/static/media/buttercms-logo.37e34810.png",
-    "static/media/envelope.a33325d7.svg": "/jessefragale/static/media/envelope.a33325d7.svg",
-    "static/media/instagram.529f10dc.svg": "/jessefragale/static/media/instagram.529f10dc.svg",
+    "static/media/envelope.82189696.svg": "/jessefragale/static/media/envelope.82189696.svg",
+    "static/media/instagram.e75317fa.svg": "/jessefragale/static/media/instagram.e75317fa.svg",
     "static/media/jesse-fragale.png": "/jessefragale/static/media/jesse-fragale.e8018d1f.png",
-    "static/media/linkedin.dda71dd5.svg": "/jessefragale/static/media/linkedin.dda71dd5.svg",
+    "static/media/jessefragale.bbec9a57.svg": "/jessefragale/static/media/jessefragale.bbec9a57.svg",
+    "static/media/linkedin.1e01f0c0.svg": "/jessefragale/static/media/linkedin.1e01f0c0.svg",
     "static/media/play.f79fe6ae.svg": "/jessefragale/static/media/play.f79fe6ae.svg",
-    "static/media/twitter.6cb9c32d.svg": "/jessefragale/static/media/twitter.6cb9c32d.svg",
-    "static/media/youtube.361841d8.svg": "/jessefragale/static/media/youtube.361841d8.svg"
+    "static/media/twitter.6620c8ae.svg": "/jessefragale/static/media/twitter.6620c8ae.svg",
+    "static/media/youtube.c80ca203.svg": "/jessefragale/static/media/youtube.c80ca203.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0b6cb369.js",
-    "static/js/2.b63120cb.chunk.js",
-    "static/css/main.67855cbc.chunk.css",
-    "static/js/main.280cb121.chunk.js"
+    "static/js/2.b80052fa.chunk.js",
+    "static/css/main.6e74ee8b.chunk.css",
+    "static/js/main.f4b665a6.chunk.js"
   ]
 }
