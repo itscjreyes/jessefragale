@@ -46,3 +46,17 @@
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+  .video-wrapper {
+    width: calc(50% - 20px);
+    height: 23vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .video-wrapper {
+    width: calc(100% - 20px);
+    height: 47vw;
+  }
+}

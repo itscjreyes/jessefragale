@@ -50,3 +50,17 @@
 .media-content:not(.active) {
   display: none;
 }
+
+@media screen and (max-width: 767px) {
+  .media-tabs-group {
+    margin: 20px 0 40px;
+    
+    li {
+      flex-grow: 1;
+    }
+  }
+
+  .media-tab {
+    width: calc(100% - 16px);
+  }
+}
