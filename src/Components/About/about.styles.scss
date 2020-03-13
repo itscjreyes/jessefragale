@@ -17,3 +17,22 @@
     width: 40%;
   }
 }
+
+@media screen and (max-width: 950px) {
+  .about {
+    .container {
+      flex-direction: column;
+      padding-top: 100px;
+    }
+
+    .content-wrapper {
+      width: 100%;
+    }
+
+    .img-wrapper {
+      margin: 0 auto 50px;
+      max-width: 500px;
+      width: 80%;
+    }
+  }
+}
