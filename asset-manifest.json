@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/jessefragale/static/css/main.62bb2d69.chunk.css",
-    "main.js": "/jessefragale/static/js/main.f4b665a6.chunk.js",
-    "main.js.map": "/jessefragale/static/js/main.f4b665a6.chunk.js.map",
+    "main.css": "/jessefragale/static/css/main.44f3497c.chunk.css",
+    "main.js": "/jessefragale/static/js/main.114353ca.chunk.js",
+    "main.js.map": "/jessefragale/static/js/main.114353ca.chunk.js.map",
     "runtime-main.js": "/jessefragale/static/js/runtime-main.0b6cb369.js",
     "runtime-main.js.map": "/jessefragale/static/js/runtime-main.0b6cb369.js.map",
     "static/js/2.b80052fa.chunk.js": "/jessefragale/static/js/2.b80052fa.chunk.js",
     "static/js/2.b80052fa.chunk.js.map": "/jessefragale/static/js/2.b80052fa.chunk.js.map",
     "index.html": "/jessefragale/index.html",
-    "precache-manifest.359de68696518adffef5d312ecde9d19.js": "/jessefragale/precache-manifest.359de68696518adffef5d312ecde9d19.js",
+    "precache-manifest.08a84189aaa09fa2db158a3d95ec4bf5.js": "/jessefragale/precache-manifest.08a84189aaa09fa2db158a3d95ec4bf5.js",
     "service-worker.js": "/jessefragale/service-worker.js",
-    "static/css/main.62bb2d69.chunk.css.map": "/jessefragale/static/css/main.62bb2d69.chunk.css.map",
+    "static/css/main.44f3497c.chunk.css.map": "/jessefragale/static/css/main.44f3497c.chunk.css.map",
     "static/js/2.b80052fa.chunk.js.LICENSE.txt": "/jessefragale/static/js/2.b80052fa.chunk.js.LICENSE.txt",
     "static/media/buttercms-logo.png": "/jessefragale/static/media/buttercms-logo.37e34810.png",
     "static/media/envelope.82189696.svg": "/jessefragale/static/media/envelope.82189696.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.0b6cb369.js",
     "static/js/2.b80052fa.chunk.js",
-    "static/css/main.62bb2d69.chunk.css",
-    "static/js/main.f4b665a6.chunk.js"
+    "static/css/main.44f3497c.chunk.css",
+    "static/js/main.114353ca.chunk.js"
   ]
 }
