@@ -7,8 +7,34 @@
 
   span {
     width: calc(100% / 3 - 20px);
-    height: 175px;
+    max-height: 175px;
+    height: 12vw;
     margin: 10px;
     background: lightgrey;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .instagram-wrapper {
+    width: calc(100% + 20px);
+    margin: 50px -10px 0;
+
+    span {
+      height: 20vh;
+      max-height: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .instagram-wrapper {
+    span {
+      width: calc(50% - 20px);
+      height: 40vw;
+    }
+
+    span:nth-child(n+5) {
+      display: none;
+    }
   }
 }

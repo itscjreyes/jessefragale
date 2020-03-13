@@ -29,3 +29,21 @@
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+  .contact-wrapper {
+    flex-direction: column;
+
+    .content-wrapper {
+      width: 100%;
+    }
+  }
+
+  .contact {
+    form {
+      h3 {
+        font-size: 18px;
+      }
+    }
+  }
+}
