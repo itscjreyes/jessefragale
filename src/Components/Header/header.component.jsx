@@ -15,6 +15,8 @@ function scrollAnchors(e, respond = null) {
   const targetAnchor = document.querySelector(targetID);
   if (!targetAnchor) return;
   const originalTop = distanceToTop(targetAnchor);
+  document.querySelector('header').classList.remove('open');
+  document.querySelector('.mobile-trigger').classList.remove('open');
   window.scrollBy({ top: originalTop, left: 0, behavior: 'smooth' });
   const checkIfDone = setInterval(function() {
     const atBottom = window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 2;
@@ -47,6 +49,21 @@ function headerScroll() {
     }
   };
 }
+
+function mobileTrigger(e) {
+  e.preventDefault();
+
+  const header = document.querySelector('header');
+  const trigger = document.querySelector('.mobile-trigger');
+
+  if (header.classList.contains('open')) {
+    header.classList.remove('open');
+    trigger.classList.remove('open');
+  } else {
+    header.classList.add('open');
+    trigger.classList.add('open');
+  }
+}
   
 function Header(){
   scrollTo();
@@ -63,6 +80,11 @@ function Header(){
             <li><button href="#contact" className="scroll">Contact</button></li>
           </ul>
         </nav>
+        <button className="mobile-trigger" onClick={mobileTrigger}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
     </header>
   )
