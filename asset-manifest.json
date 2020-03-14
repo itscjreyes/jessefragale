@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jessefragale/static/css/main.750f0676.chunk.css",
+    "main.css": "/jessefragale/static/css/main.78069052.chunk.css",
     "main.js": "/jessefragale/static/js/main.d8af585a.chunk.js",
     "main.js.map": "/jessefragale/static/js/main.d8af585a.chunk.js.map",
     "runtime-main.js": "/jessefragale/static/js/runtime-main.0b6cb369.js",
@@ -8,9 +8,9 @@
     "static/js/2.b80052fa.chunk.js": "/jessefragale/static/js/2.b80052fa.chunk.js",
     "static/js/2.b80052fa.chunk.js.map": "/jessefragale/static/js/2.b80052fa.chunk.js.map",
     "index.html": "/jessefragale/index.html",
-    "precache-manifest.fd43133c1fce01be6899a70b099fc78c.js": "/jessefragale/precache-manifest.fd43133c1fce01be6899a70b099fc78c.js",
+    "precache-manifest.bed29d4d3a17574e2e56b82adeb1f3fb.js": "/jessefragale/precache-manifest.bed29d4d3a17574e2e56b82adeb1f3fb.js",
     "service-worker.js": "/jessefragale/service-worker.js",
-    "static/css/main.750f0676.chunk.css.map": "/jessefragale/static/css/main.750f0676.chunk.css.map",
+    "static/css/main.78069052.chunk.css.map": "/jessefragale/static/css/main.78069052.chunk.css.map",
     "static/js/2.b80052fa.chunk.js.LICENSE.txt": "/jessefragale/static/js/2.b80052fa.chunk.js.LICENSE.txt",
     "static/media/buttercms-logo.png": "/jessefragale/static/media/buttercms-logo.37e34810.png",
     "static/media/envelope.82189696.svg": "/jessefragale/static/media/envelope.82189696.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.0b6cb369.js",
     "static/js/2.b80052fa.chunk.js",
-    "static/css/main.750f0676.chunk.css",
+    "static/css/main.78069052.chunk.css",
     "static/js/main.d8af585a.chunk.js"
   ]
 }
