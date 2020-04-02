@@ -1,6 +1,6 @@
 import React from 'react';
 import VideoList from '../YouTube/video-list.component';
-// import Podcast from '../Podcast/podcast.component';
+import Podcast from '../Podcast/podcast.component';
 import ArticlesList from  '../Articles/articles-list.component';
 import FeaturedList from '../Featured Work/featured-list.component';
 
@@ -41,16 +41,16 @@ function Media({articles, featured}){
         <h2>Watch, Listen, Read</h2>
         <ul className="media-tabs-group">
           <li><button className="active media-tab" data-tab="videos">Videos</button></li>
-          {/* <li><button className="media-tab" data-tab="podcast">Podcast</button></li> */}
+          <li><button className="media-tab" data-tab="podcast">Podcast</button></li>
           <li><button className="media-tab" data-tab="articles">Articles</button></li>
           <li><button className="media-tab" data-tab="featured">Featured Work</button></li>
         </ul>
         <div className="media-content active" id="videos">
           <VideoList />
         </div>
-        {/* <div className="media-content" id="podcast">
+        <div className="media-content" id="podcast">
           <Podcast />
-        </div> */}
+        </div>
         <div className="media-content" id="articles">
           <ArticlesList
             articles={articles}
