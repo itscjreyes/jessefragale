@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.74e80d21.chunk.css",
-    "main.js": "/static/js/main.0a640ec1.chunk.js",
-    "main.js.map": "/static/js/main.0a640ec1.chunk.js.map",
+    "main.css": "/static/css/main.1e8de356.chunk.css",
+    "main.js": "/static/js/main.a8342743.chunk.js",
+    "main.js.map": "/static/js/main.a8342743.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4092f654.js",
     "runtime-main.js.map": "/static/js/runtime-main.4092f654.js.map",
-    "static/js/2.43cea216.chunk.js": "/static/js/2.43cea216.chunk.js",
-    "static/js/2.43cea216.chunk.js.map": "/static/js/2.43cea216.chunk.js.map",
+    "static/js/2.0cec66da.chunk.js": "/static/js/2.0cec66da.chunk.js",
+    "static/js/2.0cec66da.chunk.js.map": "/static/js/2.0cec66da.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fb969cfdd1d9357f48b3f3e4d99b56c4.js": "/precache-manifest.fb969cfdd1d9357f48b3f3e4d99b56c4.js",
+    "precache-manifest.b2efc15a6dbe1c5eaf2f6556ba492543.js": "/precache-manifest.b2efc15a6dbe1c5eaf2f6556ba492543.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.74e80d21.chunk.css.map": "/static/css/main.74e80d21.chunk.css.map",
-    "static/js/2.43cea216.chunk.js.LICENSE.txt": "/static/js/2.43cea216.chunk.js.LICENSE.txt",
+    "static/css/main.1e8de356.chunk.css.map": "/static/css/main.1e8de356.chunk.css.map",
+    "static/js/2.0cec66da.chunk.js.LICENSE.txt": "/static/js/2.0cec66da.chunk.js.LICENSE.txt",
     "static/media/buttercms-logo.png": "/static/media/buttercms-logo.37e34810.png",
     "static/media/envelope.82189696.svg": "/static/media/envelope.82189696.svg",
     "static/media/instagram.e75317fa.svg": "/static/media/instagram.e75317fa.svg",
@@ -19,13 +19,14 @@
     "static/media/jessefragale.bbec9a57.svg": "/static/media/jessefragale.bbec9a57.svg",
     "static/media/linkedin.1e01f0c0.svg": "/static/media/linkedin.1e01f0c0.svg",
     "static/media/play.f79fe6ae.svg": "/static/media/play.f79fe6ae.svg",
+    "static/media/stitcher-badge.png": "/static/media/stitcher-badge.13eb5006.png",
     "static/media/twitter.6620c8ae.svg": "/static/media/twitter.6620c8ae.svg",
     "static/media/youtube.c80ca203.svg": "/static/media/youtube.c80ca203.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4092f654.js",
-    "static/js/2.43cea216.chunk.js",
-    "static/css/main.74e80d21.chunk.css",
-    "static/js/main.0a640ec1.chunk.js"
+    "static/js/2.0cec66da.chunk.js",
+    "static/css/main.1e8de356.chunk.css",
+    "static/js/main.a8342743.chunk.js"
   ]
 }
