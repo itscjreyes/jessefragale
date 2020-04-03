@@ -14,8 +14,10 @@ class Instagram extends Component {
   
   async componentDidMount() {
     let data = []
-    const url = "https://www.instagram.com/jfragalz/"
+    const url = "https://www.instagram.com/jessefragale/"
     const instaSource = await axios.get(url)
+    console.log('hello')
+    console.log(instaSource)
 
     const instaObj = instaSource.data
       .match(
