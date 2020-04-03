@@ -9,7 +9,7 @@ import './social.styles.scss';
 function Social(){
   return (
     <div className="social-group">
-      <a href="https://www.instagram.com/jfragalz" title="Instagram" className="icon-instagram"><Instagram /></a>
+      <a href="https://www.instagram.com/jessefragale" title="Instagram" className="icon-instagram"><Instagram /></a>
       <a href="https://www.linkedin.com/in/jessefragale" title="LinkedIn" className="icon-linkedin"><LinkedIn /></a>
       <a href="https://twitter.com/jesse_fragale" title="Twitter" className="icon-twitter"><Twitter /></a>
       <a href="https://www.youtube.com/user/JesseFragale/" title="YouTube" className="icon-youtube"><YouTube /></a>
